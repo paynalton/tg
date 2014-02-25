@@ -345,7 +345,7 @@ void inner_main (void) {
 }
 
 void usage (void) {
-  printf ("%s [-u username] [-h] [-k public key name] [-N] [-v] [-l log_level]\n", PROGNAME);
+  printf ("%s [-u username] [-h] [-k public key name] [-N] [-v] [-l log_level] [-s luafile]\n", PROGNAME);
   exit (1);
 }
 
