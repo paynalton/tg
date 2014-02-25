@@ -1099,6 +1099,8 @@ void interpreter (char *line UU) {
     exit (0);
   } else if (IS_WORD ("safe_quit")) {
     safe_quit = 1;
+  } else {
+      printf ("Unknow Command\n");
   }
   }
 #undef IS_WORD
