@@ -1,2 +1,6 @@
 *.o
 nbproject/
+Makefile
+config.log
+config.status
+telegram
